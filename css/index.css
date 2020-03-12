@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+/* Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/*Header and nav*/
+header div nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 16px;
+    color: #807CF4;
+}
+
+header div nav ul  {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 16px 2.5em 0 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+header div nav ul a:hover{
+    color: rgb(19, 61, 107);
+}
+header div nav ul a :nth-child(8){
+    justify-content: flex-end;
+}
+.buttonsignup {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(225, 225, 225);
+    padding: 12px 17px 12px 17px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: linear-gradient(to right, rgb(66, 60, 241) , #807CF4);
+    border-color: rgb(118, 114, 228);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 60px;
+    flex-wrap: wrap;
+}
+@media all and (max-width:600px){
+    header div nav ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+#buttonsignup1 {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+    color: rgb(225, 225, 225);
+    padding: 12px 17px 12px 17px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: linear-gradient(to right, rgb(66, 60, 241) , #807CF4);
+    border-color: rgb(118, 114, 228);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 60px;
+    flex-wrap: wrap;
+    position: relative;
+    left: -20em;
+
+}
+/* Div with Keyboard and Logitech text*/
+body form div{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7em;
+    margin-left: 16px;
+    margin-right: auto;
+    font-style: normal;
+}
+.div-keyboard{
+    display: flex;
+    margin-left: auto;
+    height: 100%;
+}
+@media all and (max-width:1100px){
+    .div-keyboard{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+body form section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: -15em;
+}
+@media all and (max-width:1100px){
+    body form section{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+.buttonviewmore{
+    text-transform: uppercase;
+    font-size: 13px;
+    background: linear-gradient(to right, rgb(66, 60, 241) , #807CF4);
+    border-color: rgb(118, 114, 228);
+    border-style: solid;
+    color: white;
+    padding: 12px 17px 12px 17px;
+    display: flex;
+    border-radius: 60px;
+    border-width: 1px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* h1 and p font size*/
+h1{
+    font-size: 60px;
+    margin: 0 0 0 0;
+}
+h2{
+    font-size: 40px;
+    margin: 0 0 0 0;
+}
+h3{
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+h4{
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+p{
+    font-size: 20px;
+}
+.services-text{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    list-style: none;
+    color: rgb(66, 60, 241);
+    font-family: 'Lato' sans-serif;
+}
+body hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
+    border-top: 1px solid #807CF4;  
+}
+.text1{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto' sans-serif;
+    font-size: 24px;
+}
+.text2{
+    text-align: center;
+}
+.images-div{
+    display: flex;
+    margin: 3em 3em 3em 3em;
+    align-items: flex-start;
+}
+.buttonreadmore{
+        text-transform: uppercase;
+        font-size: 13px;
+        text-align: left;
+        background: white;
+        border-color: rgb(118, 114, 228);
+        border-style: solid;
+        color: black;
+        padding: 15px 20px 15px 20px;
+        display: flex;
+        border-radius: 60px;
+        border-width: 1px;
+        list-style: none;
+        flex-direction: column;
+        text-decoration: none;
+        justify-content: flex-end;
+        align-items: flex-end;
+        z-index: 20;
+        top: 70%;
+        right: 16%;
+        position: relative;
+}
+.viewmore2{
+    text-transform: uppercase;
+    font-size: 13px;
+    background: white;
+    border-color: rgb(95, 94, 128);
+    border-style: solid;
+    color: black;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    border-radius: 60px;
+    border-width: 1px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 50;
+    position: relative;
+}
+.viewmore3{
+    text-transform: uppercase;
+    font-size: 13px;
+    background: white;
+    border-color: rgb(118, 114, 228);
+    border-style: solid;
+    color: black;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    border-radius: 60px;
+    border-width: 1px;
+    list-style: none;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.formposition{
+    display: flex;
+    height: 80%;
+    margin-left: 5em;
+    overflow: hidden;
+    text-align: center;
+}
+.a1{
+     text-decoration: none;
+}
+.logitech{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@media all and (max-width:1100px){
+    .logitech{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+.logitech-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+@media all and (max-width:1100px){
+    .logitech-text{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.logitech-div{
+    display: flex;
+}
+.play-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+.play-text{
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.spantext{
+    color: #807CF4;
+}
+.text4{
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+
+}
+.images4-1{
+    display: flex;
+    justify-content: space-between;
+}
+.aside-menu{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Lato' Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.toptext{
+    margin-top: 2em;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-size: 35px;
+
+}
+.toptext2{
+    font-family: 'Lato' Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+.aside-menu :nth-child(1){
+    color: #807CF4;
+}
+.general-div{
+    display: flex;
+    justify-content: space-between;
+}
+.hrstyle{
+    margin-top: -2px;
+    color: #807CF4;
+    margin-left: 11px;
+    width: 30%;
+}
+.lidecoration{
+    margin: 1em 1em 1em 1em;
+}
+.images-div-1{
+    margin-top: 2em;
+}
+.rowimages{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media all and (max-width:1100px){
+    .rowimages{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 3em;
+}
+@media all and (max-width:1100px){
+    .text-div{
+        margin-bottom: 6em;
+    }
+}
+#text-div-2{
+    margin-left: 2em;
+}
+.imgcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: auto;
+    
+}
+.div-img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    height: 100%;
+}
+.img2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    height: 100%;
+}
+.costumers{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5em 1em 5em 1em;
+}
+.costumers-text{
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+}
+.footer1{
+    height: 500px;
+    max-height: max-content;
+}
+.footer-nav1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    color: #807CF4;
+}
+.footer-li{
+    margin-top: 5em;
+}
+.footer-li1{
+    margin-bottom: 1em;
+    color: rgb(134, 131, 131);
+}
+.footer-nav2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    color: #807CF4;
+    position: relative;
+    bottom: 20em;
+    left: -9em;
+}
+.footer-nav3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    color: #807CF4;
+    position: relative;
+    bottom: 27.5em;
+}
+.footer-nav4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    color: #807CF4;
+    position: relative;
+    bottom: 39.5em;
+    left: 12em;
+}
+.footer-nav5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    color: #807CF4;
+    position: relative;
+    bottom: 49em;
+    
+}
+
+
+
+
